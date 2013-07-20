@@ -1,0 +1,417 @@
+Running 76 test cases...
+Testing disc2cont and cont2disc
+Testing meta data container for FieldBase
+Basic Field tests for type DenseField<half>
+Checking empty field
+  Time elapsed: 0
+Checking non-empty field
+  Time elapsed: 0
+Checking value in cleared field
+  Time elapsed: 0
+Checking reading and writing entire field
+  Time elapsed: 0.059999999999999998
+Checking large extents, small data window
+  Time elapsed: 0.001
+Checking std::fill works with iterators
+  Time elapsed: 0.0070000000000000001
+Checking read from const_iterator - full field
+  Time elapsed: 0.0070000000000000001
+Checking read from const_iterator - empty field
+  Time elapsed: 0.012999999999999999
+Checking read of subset from const_iterator - empty field
+  Time elapsed: 0
+Checking read from iterator
+  Time elapsed: 0.012
+Checking iterator correctness
+  Time elapsed: 0.032000000000000001
+Checking random writes
+  Time elapsed: 0.188
+Checking that mapping picks up resizes
+  Time elapsed: 0.001
+Checking clone and copy constructors
+  Time elapsed: 0.0060000000000000001
+Basic Field tests for type SparseField<half>
+Checking empty field
+  Time elapsed: 0
+Checking non-empty field
+  Time elapsed: 0
+Checking value in cleared field
+  Time elapsed: 0
+Checking reading and writing entire field
+  Time elapsed: 0.064000000000000001
+Checking large extents, small data window
+  Time elapsed: 0
+Checking std::fill works with iterators
+  Time elapsed: 0.0070000000000000001
+Checking read from const_iterator - full field
+  Time elapsed: 0.0060000000000000001
+Checking read from const_iterator - empty field
+  Time elapsed: 0.012
+Checking read of subset from const_iterator - empty field
+  Time elapsed: 0.001
+Checking read from iterator
+  Time elapsed: 0.012
+Checking iterator correctness
+  Time elapsed: 0.031
+Checking random writes
+  Time elapsed: 0.217
+Checking that mapping picks up resizes
+  Time elapsed: 0
+Checking clone and copy constructors
+  Time elapsed: 0.0080000000000000002
+Basic Field tests for type DenseField<float>
+Checking empty field
+  Time elapsed: 0
+Checking non-empty field
+  Time elapsed: 0
+Checking value in cleared field
+  Time elapsed: 0
+Checking reading and writing entire field
+  Time elapsed: 0.070999999999999994
+Checking large extents, small data window
+  Time elapsed: 0
+Checking std::fill works with iterators
+  Time elapsed: 0.0070000000000000001
+Checking read from const_iterator - full field
+  Time elapsed: 0.0060000000000000001
+Checking read from const_iterator - empty field
+  Time elapsed: 0.010999999999999999
+Checking read of subset from const_iterator - empty field
+  Time elapsed: 0.001
+Checking read from iterator
+  Time elapsed: 0.010999999999999999
+Checking iterator correctness
+  Time elapsed: 0.032000000000000001
+Checking random writes
+  Time elapsed: 1.321
+Checking that mapping picks up resizes
+  Time elapsed: 0.001
+Checking clone and copy constructors
+  Time elapsed: 0.0089999999999999993
+Basic Field tests for type SparseField<float>
+Checking empty field
+  Time elapsed: 0
+Checking non-empty field
+  Time elapsed: 0
+Checking value in cleared field
+  Time elapsed: 0
+Checking reading and writing entire field
+  Time elapsed: 0.060999999999999999
+Checking large extents, small data window
+  Time elapsed: 0
+Checking std::fill works with iterators
+  Time elapsed: 0.0070000000000000001
+Checking read from const_iterator - full field
+  Time elapsed: 0.0060000000000000001
+Checking read from const_iterator - empty field
+  Time elapsed: 0.012999999999999999
+Checking read of subset from const_iterator - empty field
+  Time elapsed: 0
+Checking read from iterator
+  Time elapsed: 0.012999999999999999
+Checking iterator correctness
+  Time elapsed: 0.029999999999999999
+Checking random writes
+  Time elapsed: 0.30399999999999999
+Checking that mapping picks up resizes
+  Time elapsed: 0
+Checking clone and copy constructors
+  Time elapsed: 0.0060000000000000001
+Basic Field tests for type DenseField<double>
+Checking empty field
+  Time elapsed: 0
+Checking non-empty field
+  Time elapsed: 0
+Checking value in cleared field
+  Time elapsed: 0
+Checking reading and writing entire field
+  Time elapsed: 0.064000000000000001
+Checking large extents, small data window
+  Time elapsed: 0.001
+Checking std::fill works with iterators
+  Time elapsed: 0.0070000000000000001
+Checking read from const_iterator - full field
+  Time elapsed: 0.0060000000000000001
+Checking read from const_iterator - empty field
+  Time elapsed: 0.012
+Checking read of subset from const_iterator - empty field
+  Time elapsed: 0
+Checking read from iterator
+  Time elapsed: 0.012
+Checking iterator correctness
+  Time elapsed: 0.029999999999999999
+Checking random writes
+  Time elapsed: 0.80700000000000005
+Checking that mapping picks up resizes
+  Time elapsed: 0.002
+Checking clone and copy constructors
+  Time elapsed: 0.0080000000000000002
+Basic Field tests for type SparseField<double>
+Checking empty field
+  Time elapsed: 0
+Checking non-empty field
+  Time elapsed: 0
+Checking value in cleared field
+  Time elapsed: 0
+Checking reading and writing entire field
+  Time elapsed: 0.068000000000000005
+Checking large extents, small data window
+  Time elapsed: 0.001
+Checking std::fill works with iterators
+  Time elapsed: 0.0080000000000000002
+Checking read from const_iterator - full field
+  Time elapsed: 0.0060000000000000001
+Checking read from const_iterator - empty field
+  Time elapsed: 0.012
+Checking read of subset from const_iterator - empty field
+  Time elapsed: 0.001
+Checking read from iterator
+  Time elapsed: 0.012
+Checking iterator correctness
+  Time elapsed: 0.029999999999999999
+Checking random writes
+  Time elapsed: 0.377
+Checking that mapping picks up resizes
+  Time elapsed: 0
+Checking clone and copy constructors
+  Time elapsed: 0.0070000000000000001
+Basic Field tests for type EmptyField
+Checking empty field
+  Time elapsed: 0
+Checking non-empty field
+  Time elapsed: 0
+Checking value in cleared field
+  Time elapsed: 0
+Checking (bogus) reading and writing a nonexistent cell
+  Time elapsed: 0
+Checking reading and writing the constant value
+  Time elapsed: 0
+Checking that mapping picks up resizes
+  Time elapsed: 0.001
+Basic Field tests for type EmptyField
+Checking empty field
+  Time elapsed: 0
+Checking non-empty field
+  Time elapsed: 0
+Checking value in cleared field
+  Time elapsed: 0
+Checking (bogus) reading and writing a nonexistent cell
+  Time elapsed: 0
+Checking reading and writing the constant value
+  Time elapsed: 0
+Checking that mapping picks up resizes
+  Time elapsed: 0
+Basic Field tests for type EmptyField
+Checking empty field
+  Time elapsed: 0
+Checking non-empty field
+  Time elapsed: 0
+Checking value in cleared field
+  Time elapsed: 0
+Checking (bogus) reading and writing a nonexistent cell
+  Time elapsed: 0
+Checking reading and writing the constant value
+  Time elapsed: 0
+Checking that mapping picks up resizes
+  Time elapsed: 0
+FieldMapping tests for type DenseField<float>
+Checking field mapping
+  Time elapsed: 0.0040000000000000001
+Checking time-varying MatrixFieldMapping
+  Time elapsed: 0
+Checking MatrixFieldMapping isIdentical()
+  Time elapsed: 0
+FieldMapping tests for type DenseField<double>
+Checking field mapping
+  Time elapsed: 0.0030000000000000001
+Checking time-varying MatrixFieldMapping
+  Time elapsed: 0
+Checking MatrixFieldMapping isIdentical()
+  Time elapsed: 0
+FrustumMapping tests
+  Time elapsed: 0.001
+Linear interpolation tests for type DenseField<half>
+Simple linear inter test
+  Time elapsed: 0
+Linear interpolation tests for type SparseField<half>
+Simple linear inter test
+  Time elapsed: 0
+Linear interpolation tests for type DenseField<float>
+Simple linear inter test
+  Time elapsed: 0
+Linear interpolation tests for type SparseField<float>
+Simple linear inter test
+  Time elapsed: 0
+Linear interpolation tests for type DenseField<double>
+Simple linear inter test
+  Time elapsed: 0
+Linear interpolation tests for type SparseField<double>
+Simple linear inter test
+  Time elapsed: 0
+Linear fast interpolation tests for type DenseField<half>
+Simple linear inter test
+  Time elapsed: 0
+Linear fast interpolation tests for type SparseField<half>
+Simple linear inter test
+  Time elapsed: 0
+Linear fast interpolation tests for type DenseField<float>
+Simple linear inter test
+  Time elapsed: 0
+Linear fast interpolation tests for type SparseField<float>
+Simple linear inter test
+  Time elapsed: 0
+Linear fast interpolation tests for type DenseField<double>
+Simple linear inter test
+  Time elapsed: 0
+Linear fast interpolation tests for type SparseField<double>
+Simple linear inter test
+  Time elapsed: 0
+Cubic interpolation tests for type DenseField<half>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic interpolation tests for type SparseField<half>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic interpolation tests for type DenseField<float>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic interpolation tests for type SparseField<float>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic interpolation tests for type DenseField<double>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic interpolation tests for type SparseField<double>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic fast interpolation tests for type DenseField<half>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic fast interpolation tests for type SparseField<half>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic fast interpolation tests for type DenseField<float>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic fast interpolation tests for type SparseField<float>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic fast interpolation tests for type DenseField<double>
+Simple Cubic inter test
+  Time elapsed: 0
+Cubic fast interpolation tests for type SparseField<double>
+Simple Cubic inter test
+  Time elapsed: 0
+Field3DFile tests for type DenseField<half>
+Checking write file, then read
+Checking that partition field1 exists in file.
+Checking that partition field2 exists in file.
+Checking that partition field3 exists in file.
+Verifying scalar data is identical
+  Time elapsed: 0.012
+Verifying vector data is identical
+  Time elapsed: 0.017000000000000001
+  Time elapsed: 0.14499999999999999
+Field3DFile tests for type SparseField<half>
+Checking write file, then read
+Checking that partition field1 exists in file.
+Checking that partition field2 exists in file.
+Checking that partition field3 exists in file.
+Verifying scalar data is identical
+  Time elapsed: 0.021999999999999999
+Verifying vector data is identical
+  Time elapsed: 0.024
+  Time elapsed: 0.11700000000000001
+Field3DFile tests for type DenseField<float>
+Checking write file, then read
+Checking that partition field1 exists in file.
+Checking that partition field2 exists in file.
+Checking that partition field3 exists in file.
+Verifying scalar data is identical
+  Time elapsed: 0.0089999999999999993
+Verifying vector data is identical
+  Time elapsed: 0.014
+  Time elapsed: 0.94799999999999995
+Field3DFile tests for type SparseField<float>
+Checking write file, then read
+Checking that partition field1 exists in file.
+Checking that partition field2 exists in file.
+Checking that partition field3 exists in file.
+Verifying scalar data is identical
+  Time elapsed: 0.017000000000000001
+Verifying vector data is identical
+  Time elapsed: 0.021000000000000001
+  Time elapsed: 0.30299999999999999
+Field3DFile tests for type DenseField<double>
+Checking write file, then read
+Checking that partition field1 exists in file.
+Checking that partition field2 exists in file.
+Checking that partition field3 exists in file.
+Verifying scalar data is identical
+  Time elapsed: 0.0080000000000000002
+Verifying vector data is identical
+  Time elapsed: 0.014
+  Time elapsed: 8.5510000000000002
+Field3DFile tests for type SparseField<double>
+Checking write file, then read
+Checking that partition field1 exists in file.
+Checking that partition field2 exists in file.
+Checking that partition field3 exists in file.
+Verifying scalar data is identical
+  Time elapsed: 0.016
+Verifying vector data is identical
+  Time elapsed: 0.019
+  Time elapsed: 1.6080000000000001
+Testing that unnamed fields error out when writing
+WARNING: Field3DOutputFile::writeScalarLayer: Tried to write a scalar layer with no name
+Testing basic Field3DFile open/close
+WARNING: Couldn't open file: C:\Users\lixsheng\AppData\Local\Temp/test_DenseField.float.f3d
+Testing empty sparse field to disk for <half>
+  Time elapsed: 0.001
+Testing empty sparse field to disk for <float>
+  Time elapsed: 0.001
+Testing empty sparse field to disk for <double>
+  Time elapsed: 0.001
+Testing empty MAC field to disk for <half>
+  Time elapsed: 0.56200000000000006
+Testing empty MAC field to disk for <float>
+  Time elapsed: 1.093
+Testing empty MAC field to disk for <double>
+  Time elapsed: 2.258
+Testing layer fetching for DenseField<half>
+  Time elapsed: 0.11700000000000001
+Testing layer fetching for SparseField<half>
+  Time elapsed: 0.0050000000000000001
+Testing layer fetching for DenseField<float>
+  Time elapsed: 0.379
+Testing layer fetching for SparseField<float>
+  Time elapsed: 0.0050000000000000001
+Testing layer fetching for DenseField<double>
+  Time elapsed: 0.52400000000000002
+Testing layer fetching for SparseField<double>
+  Time elapsed: 0.0060000000000000001
+Testing on-the-fly conversion for DenseField<half>
+  Time elapsed: 0.055
+Testing on-the-fly conversion for SparseField<half>
+  Time elapsed: 0.050999999999999997
+Testing on-the-fly conversion for DenseField<float>
+  Time elapsed: 0.060999999999999999
+Testing on-the-fly conversion for SparseField<float>
+  Time elapsed: 0.060999999999999999
+Testing on-the-fly conversion for DenseField<double>
+  Time elapsed: 0.089999999999999997
+Testing on-the-fly conversion for SparseField<double>
+  Time elapsed: 0.085999999999999993
+Testing duplicate partition names for DenseField<half>
+Testing duplicate partition names for SparseField<half>
+Testing duplicate partition names for DenseField<float>
+Testing duplicate partition names for SparseField<float>
+Testing duplicate partition names for DenseField<double>
+Testing duplicate partition names for SparseField<double>
+Testing time varying MatrixFieldMapping
+Testing time varying FrustumFieldMapping
+Testing SparseField<half> block iterator
+Testing SparseField<float> block iterator
+Testing SparseField<double> block iterator
+Testing MAC Field
+Testing MAC Field subset iterator

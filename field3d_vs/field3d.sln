@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "field3d", "field3d.vcxproj", "{5304C757-0708-4C53-8894-6197D51CE5ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "field3d_test", "..\field3d_test\field3d_test.vcxproj", "{7D22DDD2-3FAC-4C80-8531-438F4430867E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5304C757-0708-4C53-8894-6197D51CE5ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5304C757-0708-4C53-8894-6197D51CE5ED}.Debug|Win32.Build.0 = Debug|Win32
+		{5304C757-0708-4C53-8894-6197D51CE5ED}.Release|Win32.ActiveCfg = Release|Win32
+		{5304C757-0708-4C53-8894-6197D51CE5ED}.Release|Win32.Build.0 = Release|Win32
+		{7D22DDD2-3FAC-4C80-8531-438F4430867E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D22DDD2-3FAC-4C80-8531-438F4430867E}.Debug|Win32.Build.0 = Debug|Win32
+		{7D22DDD2-3FAC-4C80-8531-438F4430867E}.Release|Win32.ActiveCfg = Release|Win32
+		{7D22DDD2-3FAC-4C80-8531-438F4430867E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
